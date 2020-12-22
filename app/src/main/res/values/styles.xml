@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- 将原本的DarkActionBar改为NoActionBar
+    （在碎片的布局里自定义的一个标题栏，不需要原生的ActionBar）-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

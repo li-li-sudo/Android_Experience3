@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--头布局-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize">
+    <!--显示城市名-->
+    <!--切换城市按钮
+    layout_alignParentLeft  ： 居左显示-->
+    <Button
+
+        android:id="@+id/nav_button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_home"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_city"
+        android:layout_centerInParent="true"
+        android:textColor="#fff"
+        android:textSize="20sp"/>
+
+    <!--显示更新时间-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_update_time"
+        android:layout_marginLeft="50dp"
+        android:layout_centerVertical="true"
+        android:textColor="#fff"
+        android:textSize="16sp"/>
+    <RadioButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/collect_button"
+        android:layout_centerVertical="true"
+        android:button="@null"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/radio_button_state"
+    />
+
+
+</RelativeLayout>
